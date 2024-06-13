@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "CogoPort Assignment",
+    "collectionId": "cbbac7fc-3016-4037-96af-e94616fc8488",
+    "dateExported": "2024-06-13T00:19:23.406Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ec84f70-c537-49e3-93cb-0b0dd76d0108",
+            "colId": "cbbac7fc-3016-4037-96af-e94616fc8488",
+            "containerId": "",
+            "name": "Add configuration",
+            "url": "http://localhost:8000/api/create_configuration",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-12T20:39:22.061Z",
+            "modified": "2024-06-12T23:55:15.019Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"country_code\":\"us\",\n  \"company_name\":\"ADANI\",\n  \"requirements\":{\n    \"GST\":\"asdfghh\",\n    \"name\":\"ascvv\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a23922b2-8974-4854-b8eb-26ac5522ab08",
+            "colId": "cbbac7fc-3016-4037-96af-e94616fc8488",
+            "containerId": "",
+            "name": "Get Configuration",
+            "url": "http://localhost:8000/api/get_configuration/ACyKKK",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-12T20:39:35.519Z",
+            "modified": "2024-06-12T23:18:37.826Z",
+            "headers": []
+        },
+        {
+            "_id": "9b235975-e22b-45dc-89c8-7540c2586632",
+            "colId": "cbbac7fc-3016-4037-96af-e94616fc8488",
+            "containerId": "",
+            "name": "Update Configuration",
+            "url": "http://localhost:8000/api/update_configuration",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-12T20:39:58.964Z",
+            "modified": "2024-06-12T23:18:45.485Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"country_code\":\"ACyKKK\",\n  \"company_name\":\"rnlinks\",\n  \"requirements\":{\n    \"GST\":\"navneedddddddd\"\n  }\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0434b078-a5e4-4e41-a0f1-c6eb5eabcd31",
+            "colId": "cbbac7fc-3016-4037-96af-e94616fc8488",
+            "containerId": "",
+            "name": "Delete Configuration",
+            "url": "http://localhost:8000/api/delete_configuration?country_code=IND",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-12T20:40:33.017Z",
+            "modified": "2024-06-12T23:19:05.824Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "country_code",
+                    "value": "IND",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "rdFNYu7wgu13yCE1vujZOGrdedND8H7aZQHh61RuJOMIH41PhL9OsVliVEGEXXh6kVS3d950nI5Tw6BRa_9IUQ"
+}
